@@ -19,6 +19,13 @@ export default {
 		},
 		extend: {
 			colors: {
+				amazon: {
+					DEFAULT: '#232F3E',  // Amazon dark blue
+					light: '#37475A',    // Amazon light blue
+					orange: '#FF9900',   // Amazon orange
+					yellow: '#FEBD69',   // Amazon yellow/gold for search box
+					green: '#131921',    // Amazon top nav color
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
